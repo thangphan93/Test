@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+<ul>
+  <li><a href = "home">Home</a></li>
+  <li><a class ="active" href = "profile">Profile</a></li>
+  <li><a href = "setting">Settings</a></li>
+  <li><a href = "logout">Log out</a></li>
+</ul>
+
+<div class= "CenterAll">
+
+  <h2 class='User_Header'>Halla, <%= @current_user.username%>! </h2>
+  <p> Din email: <%= @current_user.email%> </p>
+  <p> Du lagde denne brukeren: <%= @current_user.created_at%> </p>
+</div>
+</body>
+
+</html>

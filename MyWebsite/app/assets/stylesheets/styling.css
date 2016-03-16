@@ -1,0 +1,57 @@
+.SignInLogin{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, .2);
+    padding-bottom: 20px;
+    padding-top: 2px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px #888888;
+}
+.Signup_Errors{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 66px;
+    color: red;
+}
+.CenterAll{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    background-color: darkgreen;
+    float: right;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#4CAF50;
+}
